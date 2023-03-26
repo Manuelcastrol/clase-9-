@@ -112,7 +112,7 @@ namespace farma
                                 Console.Clear();
                                 Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine(" SE PUEDEN SELECIONAR MAS DE UN MEDICAMENTO ");
-                                Console.WriteLine(" CUANDO TERMINE DE SELECIONAR LOS MEDICAMENTOS SELECIONE  ");
+                                Console.WriteLine(" CUANDO TERMINE DE SELECIONAR LOS MEDICAMENTOS SELECIONE TERMINAR VENTA ");
                                 Console.ResetColor();
                                 Console.WriteLine("Seleccione un medicamento para agregar a la venta:");
                                 Console.WriteLine("-------------------------------------------------");
@@ -201,6 +201,8 @@ namespace farma
                             {
                                 Console.WriteLine($"- {medicamento.Nombre} ({medicamento.Tipo}) - Cantidad: {medicamento.CantidadUnidades} - Miligramos: {medicamento.Miligramos} - Gramos: {medicamento.Gramos} - Vencimiento: {medicamento.FechaVencimiento}");
                             }
+                            Console.WriteLine("Muchas gacias por su compra y por preferirnos");
+                            Console.WriteLine("Vuelva pronto");
                             Console.WriteLine("Presione cualquier tecla para continuar...");
                             Console.ReadKey();
                             break;
